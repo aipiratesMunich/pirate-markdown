@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="400" viewBox="0 0 1280 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060b12"/>
+      <stop offset="0.55" stop-color="#08131c"/>
+      <stop offset="1" stop-color="#0b1c26"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.22" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#a8f4ff"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#22D3EE" fill-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#dots)"/>
+  <rect width="1280" height="400" fill="url(#glow)"/>
+
+  <!-- ghosted markdown snippet, background texture -->
+  <g font-family="Menlo, monospace" font-size="20" fill="#22D3EE" fill-opacity="0.07">
+    <text x="720" y="80"># Pirate Markdown</text>
+    <text x="720" y="112">&gt; clean, LLM-ready markdown</text>
+    <text x="720" y="300">**Source:** [https://…](https://…)</text>
+    <text x="720" y="332">- entities: Organization, WebPage</text>
+    <text x="720" y="364">→ send to AI ▸</text>
+  </g>
+
+  <!-- icon mark on a soft card -->
+  <g transform="translate(96,110)">
+    <rect x="-16" y="-16" width="212" height="212" rx="46" fill="#0e1a24" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="2"/>
+    <image xlink:href="icon.png" x="0" y="0" width="180" height="180"/>
+  </g>
+
+  <!-- wordmark -->
+  <g transform="translate(360,0)">
+    <text x="0" y="185" font-family="Avenir Next, Arial, sans-serif" font-weight="700" font-size="86" fill="url(#wm)" letter-spacing="-2">Pirate</text>
+    <text x="0" y="278" font-family="Avenir Next, Arial, sans-serif" font-weight="700" font-size="86" fill="#22D3EE" letter-spacing="-2">Markdown</text>
+    <rect x="497" y="205" width="14" height="70" rx="3" fill="#22D3EE"/>
+    <text x="4" y="330" font-family="Menlo, monospace" font-size="23" fill="#93a4b3">Turn any webpage into LLM-ready Markdown. One click.</text>
+  </g>
+
+  <!-- AI Pirates tag -->
+  <text x="360" y="66" font-family="Avenir Next, Arial, sans-serif" font-weight="700" font-size="18" fill="#22D3EE" letter-spacing="6">AI&#160;PIRATES&#160;&#183;&#160;GEO / AI TOOLING</text>
+</svg>
